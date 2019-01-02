@@ -1,3 +1,14 @@
+a {
+  color: black;
+}
+
+.button {
+  background-color: #61A61C;
+}
+.button:hover, .button:active {
+  background-color: #385916;
+}
+
 .top-bar {
   background-color: #548C1C;
 }
@@ -6,6 +17,6 @@
   background-color: transparent;
 }
 
-a {
-  color: black;
+#main-section {
+  background-image: url("Wilddogs Madikwe1_Fotor.jpg");
 }
