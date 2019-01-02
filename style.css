@@ -18,5 +18,18 @@ a {
 }
 
 #main-section {
-  background-image: url("Wilddogs Madikwe1_Fotor.jpg");
+  text-align: center;
+
+}
+
+.menu {
+  display: flex;
+  line-height: 2.5;
+  text-align: center;
+  max-width: 1000px;
+}
+
+.menu a {
+  padding-right: 8px;
+  margin: auto;
 }
