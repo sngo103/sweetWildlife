@@ -38,3 +38,30 @@ a:hover {
   padding-right: 8px;
   margin: auto;
 }
+
+/* Donation buttons ----- */
+input[type=radio], input[type=checkbox] {
+	display:none;
+}
+input[type=radio] + label, input[type=checkbox] + label {
+	padding: 4px 12px;
+  margin-bottom: 16px;
+	background-color: transparent;
+	border: solid 2px #c04f1d;
+	color: #c04f1d;
+}
+/* if clicked */
+input[type=radio]:checked + label, input[type=checkbox]:checked + label{
+	background-color: transparent;
+	color: #61A61C;
+}
+input[type=radio] + label, input[type=checkbox] + label {
+    padding: 10px 20px;
+    margin-left: 0;
+    margin-right: 16px;
+    margin-bottom: 16px;
+    background-color: #61A61C;
+    border: solid 1px #61A61C;
+    color: #fff;
+    border-radius: 3px;
+}
