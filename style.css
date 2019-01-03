@@ -2,6 +2,10 @@ a {
   color: black;
 }
 
+a:hover {
+  color: pink;
+}
+
 .button {
   background-color: #61A61C;
 }
