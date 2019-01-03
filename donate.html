@@ -33,14 +33,35 @@
   <div class="row">
     <div id="main-section" class="large-12 cell">
       <h1>Donate for Wildlife</h1>
-      <p>“A simple act of kindness and compassion towards a single animal may not mean anything to all creatures, but will mean everything to one.” - Paul Oxton</p>
+      <br>
+      <hr>
+      <br><br>
       </div>
-      <div class="small secondary expanded button-group">
-        <a class="button">$25</a>
-        <a class="button">$50</a>
-        <a class="button">$75</a>
-        <a class="button">$100</a>
-        <a class="button">Other</a>
+      <div class="grid-x grid-padding-x" style="display:flex;">
+        <div class="large-6 medium-6 cell">
+          <p>“A simple act of kindness and compassion towards a single animal may not mean anything to all creatures, but will mean everything to one.” - Paul Oxton</p>
+          <form action="thank-you.html">
+            Your Amount: <br/><br/>
+              <input type="radio" id="radio1" name="radios" value="25" checked>
+                <label for="radio1">$25</label>
+              <input type="radio" id="radio2" name="radios" value="50 s iv">
+                <label for="radio2">$50</label>
+              <input type="radio" id="radio3" name="radios" value="75">
+                <label for="radio3">$75</label>
+              <input type="radio" id="radio4" name="radios" value="100">
+                <label for="radio4">$100</label>
+              <br>
+              Other Amount:
+              <br><br>
+              <input type="number" min="1" step="any" name="other_amount" title="Other Amount" value="" style="max-width:100px;">
+
+            <br>
+            <input class="button" type="submit" name="Dontate">
+          </form>
+        </div>
+        <div class="large-6 medium-6 cell">
+          <img src = "Images/Elephant.jpg">
+        </div>
       </div>
     </div>
   </div>
