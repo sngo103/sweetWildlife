@@ -39,7 +39,17 @@ a:hover {
   margin: auto;
 }
 
-/* Donation buttons ----- */
+.callout {
+  margin: 0 10px 0 1rem;
+}
+
+.callout.primary {
+    background-color: #63c24a;
+    border: none;
+    height: 100%;
+}
+
+/* Donation buttons -------------------------- */
 input[type=radio], input[type=checkbox] {
 	display:none;
 }
