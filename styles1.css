@@ -29,6 +29,9 @@ a:hover {
 
 .top-bar {
   background-color: #548C1C;
+	position: fixed;
+  width: 100%;
+  z-index: 1000;
 }
 
 .top-bar ul {
@@ -100,11 +103,12 @@ img{
 
 
 
-.quote{
-	float:left;
-	width: 50%;
-	padding: 20px;
-	color: #fff;
-	text-align: left;
-	font-size: 40px;
+.quote {
+    float: left;
+    width: 40%;
+    padding: 20px;
+    color: #fff;
+    text-align: left;
+    font-size: 40px;
+    margin-left: 16px;
 }

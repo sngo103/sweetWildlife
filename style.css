@@ -15,6 +15,9 @@ a:hover {
 
 .top-bar {
   background-color: #548C1C;
+  position: fixed;
+  width: 100%;
+  z-index: 1000;
 }
 
 .top-bar ul {
