@@ -1,0 +1,110 @@
+
+body{
+	padding: 0px;
+	margin: 0px;
+}
+
+
+/*img{
+	width: 30%;
+	height: 30%;
+	float: left;
+	margin: 1.66%;
+}*/
+
+a {
+  color: black;
+}
+
+a:hover {
+  color: pink;
+}
+
+.button {
+  background-color: #61A61C;
+}
+.button:hover, .button:active {
+  background-color: #385916;
+}
+
+.top-bar {
+  background-color: #548C1C;
+}
+
+.top-bar ul {
+  background-color: transparent;
+}
+
+#main-section {
+  text-align: center;
+
+}
+
+.menu {
+  display: flex;
+  line-height: 2.5;
+  text-align: center;
+  max-width: 700px;
+  margin: auto;
+}
+
+.menu a {
+  padding-right: 8px;
+  margin: auto;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  background-color: #d3d3d3;
+  padding: 10px;
+}
+
+.grid-item {
+  background-color: #000;
+  border: 1px solid #d3d3d3;
+  padding: 20px;
+  font-size: 30px;
+  text-align: center;
+}
+
+img{
+	position: relative;
+	width: 100%;
+	height: auto;
+	overflow: hidden;
+
+}
+/*
+
+#main-section img{
+	width: 100%;
+	height: auto;
+}*/
+#main-section {
+	background-image: url(Images/backgroundDon.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-attachment: fixed;
+	padding-bottom: 35%;
+	margin: 0px 20px;
+	padding-top: 0px;
+}
+.titleDonate{
+	font-size: 90px;
+	color:#fff;
+	font-family: 'Source Code Pro', monospace;
+
+}
+
+
+
+.quote{
+	float:left;
+	width: 50%;
+	padding: 20px;
+	color: #fff;
+	text-align: left;
+	font-size: 40px;
+}
